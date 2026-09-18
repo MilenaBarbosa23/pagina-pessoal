@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Milena Barbosa | Tailwind</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = { darkMode: 'class' }
+    </script>
+</head>
+<body class="bg-gray-50 text-gray-900 dark:bg-gray-900 dark:text-gray-100 transition-colors duration-300">
+    
+    <nav class="max-w-5xl mx-auto p-4 flex justify-between items-center border-b border-gray-200 dark:border-gray-700">
+        <span class="font-bold text-xl">MB</span>
+        <button id="themeToggleBtn" class="px-4 py-2 border rounded hover:bg-gray-200 dark:hover:bg-gray-800 transition">
+            Alternar Tema
+        </button>
+    </nav>
+
+    <header class="text-center py-16 px-4">
+        <h1 class="text-4xl md:text-5xl font-bold mb-4">Milena de Lourdes Barbosa</h1>
+        <p class="text-lg md:text-xl text-gray-600 dark:text-gray-400">Estudante de Sistemas de Informação na UFLA | Desenvolvedora Web e Redes</p>
+    </header>
+
+    <main class="max-w-5xl mx-auto px-4 pb-16">
+        <section class="mb-12">
+            <h2 class="text-2xl font-bold mb-4 border-b pb-2 dark:border-gray-700">Sobre Mim</h2>
+            <p>Formada em Técnico de Redes de Computadores e atualmente cursando Sistemas de Informação na UFLA. Tenho experiência com manutenção de computadores (MB Manutenções) e estagiei no CTIC do CEFET-MG. Em breve, iniciarei um novo estágio na Gooxxy em Lavras.</p>
+        </section>
+
+        <section class="mb-12">
+            <h2 class="text-2xl font-bold mb-4 border-b pb-2 dark:border-gray-700">Habilidades</h2>
+            <div class="flex flex-wrap gap-2">
+                <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm dark:bg-blue-900 dark:text-blue-200">JavaScript</span>
+                <span class="px-3 py-1 bg-green-100 text-green-800 rounded-full text-sm dark:bg-green-900 dark:text-green-200">Python</span>
+                <span class="px-3 py-1 bg-red-100 text-red-800 rounded-full text-sm dark:bg-red-900 dark:text-red-200">Java</span>
+                <span class="px-3 py-1 bg-purple-100 text-purple-800 rounded-full text-sm dark:bg-purple-900 dark:text-purple-200">HTML/CSS</span>
+                <span class="px-3 py-1 bg-yellow-100 text-yellow-800 rounded-full text-sm dark:bg-yellow-900 dark:text-yellow-200">React & Vue.js</span>
+                <span class="px-3 py-1 bg-indigo-100 text-indigo-800 rounded-full text-sm dark:bg-indigo-900 dark:text-indigo-200">Docker & Linux</span>
+            </div>
+        </section>
+
+        <section>
+            <h2 class="text-2xl font-bold mb-4 border-b pb-2 dark:border-gray-700">Projetos Destacados</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div class="p-6 border rounded-lg shadow-sm bg-white dark:bg-gray-800 dark:border-gray-700">
+                    <h3 class="font-bold text-lg mb-2">Pega Café</h3>
+                    <p class="text-sm">Jogo web desenvolvido em JavaScript puro, HTML e CSS para a disciplina de Programação Web.</p>
+                </div>
+                <div class="p-6 border rounded-lg shadow-sm bg-white dark:bg-gray-800 dark:border-gray-700">
+                    <h3 class="font-bold text-lg mb-2">Inclusão Digital com TV Box</h3>
+                    <p class="text-sm">Projeto vencedor do CONEX UFLA 2025. Instalação de Armbian Linux em aparelhos apreendidos.</p>
+                </div>
+                <div class="p-6 border rounded-lg shadow-sm bg-white dark:bg-gray-800 dark:border-gray-700">
+                    <h3 class="font-bold text-lg mb-2">ProjetoSD_RAG_MCP</h3>
+                    <p class="text-sm">Projeto acadêmico de sistemas distribuídos implementando padrões RAG, MCP e SAGA.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="text-center py-6 border-t border-gray-200 dark:border-gray-700 mt-auto">
+        <p class="text-sm text-gray-500 dark:text-gray-400">© 2026 Milena Barbosa. Projeto GAC116.</p>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
